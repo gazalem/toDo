@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $('#btnAdd').click(function () {
     var toAdd = $('input[name=checkListItem]').val();
-    $('.checkbox').append('<label for=""><input type="checkbox">' + toAdd + '</label><br>');
+    $('.checkbox').append('<input class="strikethrough" type="checkbox"><label for="">' + toAdd + '</label><br>');
   });
 });
 
